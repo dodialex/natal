@@ -5,7 +5,7 @@ import './header.css'
 const Header = () => {
     return (
         <div style={navvv}>
-            <Navbar className="justify-content-center" collapseOnSelect expand="lg">
+            <Navbar collapseOnSelect expand="lg">
                 <Navbar.Brand style={textNav} href="#home">LOGO</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
