@@ -1,10 +1,11 @@
 import './App.css';
-import Header from './components/big/Header';
+import { Header, Paralax } from './components/big';
 
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
+      <Paralax />
     </div>
   );
 }
