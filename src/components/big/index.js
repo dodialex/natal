@@ -1,4 +1,5 @@
 import Header from './Header';
 import Footer from './Footer';
 import Paralax from './Paralax';
-export { Header, Footer, Paralax };
+import Cardnya from './Cardnya';
+export { Header, Footer, Paralax, Cardnya };

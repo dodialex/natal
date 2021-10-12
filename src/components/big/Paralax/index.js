@@ -2,7 +2,6 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 import { Button } from 'react-bootstrap';
 import Header from '../Header';
-import './paralax.css'
 
 const insideStyles = {
     background: "white",
