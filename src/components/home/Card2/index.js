@@ -4,7 +4,7 @@ import { Container, Card, Row, Col } from 'react-bootstrap'
 const Card2 = ({ text1, text2, text3 }) => {
     return (
         <div style={di}>
-            sas
+            sassasasa
         </div>
     )
 }
