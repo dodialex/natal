@@ -1,0 +1,23 @@
+import React from 'react';
+import { Player } from '@lottiefiles/react-lottie-player';
+
+class Card1 extends React.Component {
+    constructor(props) {
+        super(props);
+        this.player = React.createRef(); // initialize your ref
+    }
+    render() {
+        return (
+            <Player
+                ref={this.player} // set the ref to your class instance
+                hover={true}
+                loop={true}
+                controls={true}
+                src="https://assets3.lottiefiles.com/packages/lf20_UJNc2t.json"
+                style={{ height: '300px', width: '300px' }}
+            ></Player>
+        );
+    }
+}
+
+export default Card1;
