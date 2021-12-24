@@ -3,6 +3,7 @@ import { Container, Card, Row, Col, CardGroup } from 'react-bootstrap'
 import './Card1.css';
 import { Player } from '@lottiefiles/react-lottie-player';
 import { Link } from 'react-router-dom';
+import { colors } from '../../../random/colors';
 
 class Card1 extends React.Component {
     constructor(props) {
@@ -15,12 +16,12 @@ class Card1 extends React.Component {
                 <Container>
                     <Row xs={1} md={3} style={row}>
                         <Col className='tengah'>
-                            <a style={tagA} href='https://lottiefiles.com/82362-green-loading-dots'>
+                            <a href='' style={tagA}>
                                 <Card className='cardd'>
                                     <Player
                                         hover
                                         loop
-                                        src="https://assets5.lottiefiles.com/packages/lf20_t1ga2e1n.json"
+                                        src="https://assets10.lottiefiles.com/packages/lf20_t1ga2e1n.json"
                                         style={{ display: 'flex', height: '270px' }}
                                     >
                                     </Player>
@@ -34,7 +35,7 @@ class Card1 extends React.Component {
 
 
                         <Col className='tengah'>
-                            <a style={tagA} href='https://lottiefiles.com/81535-clapping'>
+                            <a href='' style={tagA}>
                                 <Card className='cardd'>
                                     <Player
                                         hover
@@ -54,7 +55,7 @@ class Card1 extends React.Component {
 
 
                         <Col className='tengah'>
-                            <a style={tagA} href='https://lottiefiles.com/77378-sunset'>
+                            <a href='' style={tagA}>
                                 <Card className='cardd'>
                                     <Player
                                         hover
@@ -65,7 +66,7 @@ class Card1 extends React.Component {
                                     </Player>
                                     <div style={div}>
                                         <p style={teks1}>Graphic</p>
-                                        <p>Animations</p>
+                                        <p >Animations</p>
                                     </div>
                                 </Card>
                             </a>
